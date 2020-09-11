@@ -5,11 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/events
-  label: Events
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
@@ -17,6 +12,11 @@ sections:
 - type: directory
   path: content/sections
   label: Sections
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/events
+  label: Events
   create: all
   match: "**/*"
 - type: directory
