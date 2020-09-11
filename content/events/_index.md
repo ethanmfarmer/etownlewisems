@@ -1,5 +1,5 @@
 ---
-title: News
+title: Events
 description: ''
 images: []
 weight: "2"
