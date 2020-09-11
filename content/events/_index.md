@@ -1,8 +1,10 @@
 ---
-title: "Events"
-description: "Upcoming Events"
+title: News
+description: ''
 images: []
-draft: true
-menu: main
-weight: 0
+weight: "2"
+menu:
+  main:
+    weight: 4
+
 ---
