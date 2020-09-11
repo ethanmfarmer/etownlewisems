@@ -1,10 +1,10 @@
 ---
 title: Events
-description: ''
+description: 'Community Events'
 images: []
 weight: "2"
 menu:
   main:
-    weight: 4
+    weight: 5
 
 ---
