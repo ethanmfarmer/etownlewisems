@@ -1,7 +1,8 @@
 ---
 title: About
 description: ''
-images: []
+images:
+- "/uploads/background.jpg"
 weight: "3"
 menu:
   main:
