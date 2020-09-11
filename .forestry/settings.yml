@@ -22,7 +22,7 @@ sections:
   templates:
   - simple-template
 - type: directory
-  path: content/posts
+  path: content/work
   label: Posts
   create: all
   match: "**/*"
