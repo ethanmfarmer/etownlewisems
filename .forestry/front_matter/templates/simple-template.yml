@@ -32,5 +32,6 @@ fields:
   label: featured image
 pages:
 - content/become-a-member.md
+- content/events/event-test-2.md
 - content/events/test-event-forestry.md
 - content/posts/test-content.md
