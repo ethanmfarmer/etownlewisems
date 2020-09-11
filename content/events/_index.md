@@ -1,6 +1,6 @@
 ---
 title: "Events"
-description: ""
+description: "Upcoming Events"
 images: []
 draft: true
 menu: main
