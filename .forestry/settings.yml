@@ -19,11 +19,15 @@ sections:
   label: Events
   create: all
   match: "**/*"
+  templates:
+  - simple-template
 - type: directory
   path: content/posts
   label: Posts
   create: all
   match: "**/*"
+  templates:
+  - simple-template
 - type: directory
   path: content/contact
   label: Contact
