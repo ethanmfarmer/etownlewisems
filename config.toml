@@ -10,7 +10,7 @@ description = "Elizabethtown-Lewis Emergency Squad is your local EMS agency"
 favicon = "favicon.ico"
 logo = ""
 [params.contact]
-address = "8169 US Route 9, Lewis NY 12950"
+address = "8143 US Route 9, Lewis NY 12950"
 email = "etownlewisems@gmail.com"
 [params.copy]
 copy = "2020 Elizabethtown-Lewis EMS"
@@ -53,11 +53,6 @@ anonymizeIP = true
 disable = false
 respectDoNotTrack = true
 useSessionStorage = false
-[privacy.instagram]
-disable = false
-simple = false
-[privacy.twitter]
-disable = false
 enableDNT = true
 simple = false
 [privacy.vimeo]
