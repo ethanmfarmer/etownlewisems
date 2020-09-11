@@ -1,63 +1,46 @@
-author = "Ethan Farmer"
-baseurl = "/"
-defaultContentLanguage = "en"
-googleAnalytics = ""
-paginate = 3
-theme = "terrassa"
+baseURL = "www.example.com"
+languageCode = "en-us"
 title = "Elizabethtown-Lewis Emergency Squad"
+theme = "hugo-hero-theme-master"
+
 [params]
-description = "Elizabethtown-Lewis Emergency Squad is your local EMS agency"
-favicon = "favicon.ico"
-logo = ""
-[params.contact]
-address = "8143 US Route 9, Lewis NY 12950"
-email = "etownlewisems@gmail.com"
-[params.copy]
-copy = "2020 Elizabethtown-Lewis EMS"
-[params.cta]
-cta = "Contact"
-link = "contact"
-show = true
-[params.fa]
-integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-version = "5.7.2"
-[params.form]
-action = "https://formspree.io/your@email.com"
-inputEmailLabel = "Email"
-inputEmailName = "email"
-inputEmailPlaceholder = "Your email"
-inputMsgLabel = "Write something"
-inputMsgLength = 750
-inputMsgName = "message"
-inputNameLabel = "Name"
-inputNameName = "name"
-inputNamePlaceholder = "Your name"
-inputSubmitValue = "Send"
-method = "POST"
-netlify = true
-[params.hero]
-textColor = ""
-[params.languageSwitcher]
-show = true
-[params.posts]
-dateFormat = "Monday, Jan, 2006"
-showAuthor = true
-showDate = true
-showTags = true
-[params.separator]
-show = false
-[params.social]
-facebook = "https://www.facebook.com/ElizabethtownLewisEMS"
-[privacy.googleAnalytics]
-anonymizeIP = true
-disable = false
-respectDoNotTrack = true
-useSessionStorage = false
-enableDNT = true
-simple = false
-[privacy.vimeo]
-disable = false
-simple = false
-[privacy.youtube]
-disable = false
-privacyEnhanced = true
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Elizabethtown-Lewis Emergency Squad."
+    meta_og_title = "Elizabethtown-Lewis Emergency Squad"
+    meta_og_type = "website"
+    meta_og_url = "etownlewisems.org"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "Good EMS doesn't happen by accident."
+
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+
+[[menu.main]]
+    name = "History"
+    url = "/history/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"

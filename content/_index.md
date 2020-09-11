@@ -1,13 +1,7 @@
 ---
-title: Home
-description: ''
-images:
-- station.jpg
-weight: "1"
-menu:
-  main:
-    weight: 1
-
+title: 'Home'
+date: 2018-02-12T15:37:57+07:00
+heroHeading: 'Elizabethtown-Lewis Emergency Squad'
+heroSubHeading: "Good EMS doesn't happen by accident."
+heroBackground: 'images/jason-blackeye-1191801-unsplash.jpg'
 ---
-# Elizabethtown-Lewis Emergency Squad
-## Good EMS doesn't happen by accident
